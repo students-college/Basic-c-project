@@ -1,0 +1,1 @@
+#include <stdio.h>#include <string.h>int main() {    char password[20], correctPassword[] = "1234";    // ইউজারের কাছ থেকে পাসওয়ার্ড ইনপুট    printf("Enter password: ");    scanf("%s", password);    // পাসওয়ার্ড যাচাই    if (strcmp(password, correctPassword) == 0)        printf("Access Granted\n");    else        printf("Access Denied\n");    return 0;}
